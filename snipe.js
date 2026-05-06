@@ -1409,7 +1409,7 @@ async function showMainMenu(ctx, edit = false) {
     }
     
     const message = `
-🚀 *Welcome to Axiom.trade* 
+🔹 *Welcome to Axiom* 
 
 *What I do for you*:⬇️
 📊 Scan the market to tell you what to buy, ignore, or stalk
