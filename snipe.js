@@ -1409,10 +1409,8 @@ async function showMainMenu(ctx, edit = false) {
     }
     
     const message = `
-🚀 *Welcome to Axiom.trade* 🤖
+🚀 *Welcome to Axiom.trade* 
 
-*I'm your Web3 execution engine*.
-━━━━━━━━━━━━━━━━━━
 *What I do for you*:⬇️
 📊 Scan the market to tell you what to buy, ignore, or stalk
 🎯 Execute entries & exits with sniper-level timing
@@ -1425,16 +1423,16 @@ _Paste any Solana contract address to analyze_
   
     const keyboard = Markup.inlineKeyboard([
       [
-        Markup.button.callback('💼 Wallet', 'menu_wallet'),
+        Markup.button.callback('🧳 Wallet', 'menu_wallet'),
         Markup.button.callback('📊 Positions', 'menu_positions')
       ],
       [
         Markup.button.callback('🚀 Buy', 'menu_buy'),
-        Markup.button.callback('💸 Sell', 'menu_sell')
+        Markup.button.callback('💰 Sell', 'menu_sell')
       ],
       [
-        Markup.button.callback('👥 Copy Trade', 'menu_copytrade'),
-        Markup.button.callback('📈 Limit Orders', 'menu_limit')
+        Markup.button.callback('👭 Copy Trade', 'menu_copytrade'),
+        Markup.button.callback('📉 Limit Orders', 'menu_limit')
       ],
       [
         Markup.button.callback('⚙️ Settings', 'menu_settings'),
