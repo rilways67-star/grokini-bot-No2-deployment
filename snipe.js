@@ -1409,7 +1409,7 @@ async function showMainMenu(ctx, edit = false) {
     }
     
     const message = `
-🔹 *Welcome to Axiom* 
+🔹 *Welcome to DTrade - TON TRADING BOT* 
 
 *What I do for you*:⬇️
 📊 Scan the market to tell you what to buy, ignore, or stalk
@@ -1418,7 +1418,7 @@ async function showMainMenu(ctx, edit = false) {
 ⚡ Operate at machine-speed — no lag, no emotion
 ━━━━━━━━━━━━━━━━━━
 ${walletInfo}
-_Paste any Solana contract address to analyze_
+_Paste any TON contract address to analyze_
   `;
   
     const keyboard = Markup.inlineKeyboard([
